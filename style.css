@@ -1,0 +1,173 @@
+span {
+color:Blue
+}
+h2
+{
+text-align:center;
+border-radius:10px 10px 0 0;
+margin:-10px -40px;
+padding:15px
+}
+
+a
+{
+text-decoration:none;
+color:#6495ed
+}
+i
+{
+color:#6495ed
+}
+
+
+
+/* Script CSS */
+
+* {
+    margin : 0;
+    padding: 0;
+}
+nav{
+    height: 60px;
+
+    display: block;
+    width: 100%;
+    background-color: blue;
+}
+nav ul{
+    position: relative;
+    top: 20px;
+    float: right;
+    right: 4%;
+}
+nav ul li{
+    display: block;
+    float: right;
+    margin-left: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: Orange;
+    font-family: Elephant;
+}
+nav ul li a:hover{
+    color: lime;
+    transition: .8s;
+}
+
+.main { background-color: Silver;
+height:600px; }
+
+
+.informs{
+    width: 90%;
+    min-height: 110px;
+
+    margin : 10px auto 0;
+    padding : 10px;
+    
+}
+.photo img {
+
+    border: solid 1px;
+    border-radius: 100%;
+    float: left;
+    border: var(--color-home) solid 3px;
+    
+
+}
+
+
+.info{
+    padding-top: 10px;
+    width: 50%;
+
+    margin-left: 10px;
+    float: left;
+}
+.info h1{
+    font-family: 'Rubik', sans-serif;
+    font-variant: small-caps;
+    color: var(--color-home);
+}
+.info p{
+    color: var(--hide);
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+.data{
+    height: 60px;
+
+    display: block;
+    width: 100%;
+    border-bottom: var(--color-home) solid 1px;
+    border-top: var(--color-home) solid 1px;
+}
+
+
+.data ul{
+    position: relative;
+    top: 10px;
+    text-align:center;
+
+}
+
+.data ul li{
+    display: block;
+    float: left;
+    margin-left: 60px;
+}
+.data ul li a{
+    text-decoration: none;
+    color: var(--color-home);
+    font-family: 'Titillium Web', sans-serif;
+}
+.data ul li a:hover{
+color: var(--color-a-hover);
+}
+
+.listbutton{
+    padding-top: 20px;
+
+    float: left;
+}
+
+.button  {
+  padding: 5px 20px;
+  border-radius: 10px;
+  color: white;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  font-size: 12px;
+  transition: all 1s;
+  
+}
+
+#send{ background-color: var(--color-home);}
+#frend{ background-color: var(--color-a-hover);}
+
+.bio{
+    width: 90%;
+
+    margin : 10px auto 0;
+    padding : 10px;
+    color: var(--color-home);
+}
+.bio h1{
+    font-family: 'Rubik', sans-serif;
+    font-variant: small-caps;
+    color: var(--color-home);
+}
+
+.bio-style{ margin : 20px; }
+
+.bio-style ul li{ 
+font-family: 'Rubik', sans-serif;
+font-variant: small-caps; }
+.bio-style ul li span{ color: var(--color-a);}
+
+h1 {
+	color: lime;
+}
